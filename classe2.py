@@ -1,20 +1,8 @@
-class Rectangle:
-   
-    def __init__(self, largeur, hauteur):
-        self.largeur = largeur  
-        self.hauteur = hauteur  
+class Voiture:
+    def __init__(self, marque, modele):
+        self.marque = marque  
+        self.modele = modele  
 
-    
-    def surface(self):
-        return self.largeur * self.hauteur
+    def demarrer(self):
+        print(f"La {self.marque} {self.modele} démarre.")
 
-    
-    def afficher_dimensions(self):
-        print(f"Largeur : {self.largeur}, Hauteur : {self.hauteur}")
-
-
-mon_rectangle = Rectangle(5, 10)
-
-
-print(mon_rectangle.surface()) 
-mon_rectangle.afficher_dimensions()
