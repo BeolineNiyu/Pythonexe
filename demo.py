@@ -1,3 +1,3 @@
 import requests
-r = requests.get('htts:// WWW.example.com')
+r = requests.get('htts:// WWW.dufashe.com')
 print(r.status_code)
